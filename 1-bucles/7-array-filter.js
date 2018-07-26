@@ -35,3 +35,6 @@ let gente = [{
     },
 ]
 
+var nombres4letrasYMenos40 = gente.filter (gente => gente.nombre.startsWith('J') && gente.edad < 40);
+
+console.log(nombres4letrasYMenos40);

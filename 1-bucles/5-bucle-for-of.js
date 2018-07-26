@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+var genteConJ = [];
+
+for (var item of gente) {
+    if (item.nombre.startsWith('J')) {
+        genteConJ.push(item);
+    }
+}
+
+console.log(genteConJ);

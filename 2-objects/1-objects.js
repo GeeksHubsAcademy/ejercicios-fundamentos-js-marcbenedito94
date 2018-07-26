@@ -5,9 +5,11 @@
 
 
 // Aquí tu código
+var ordenador = [];
 
-
-
+ordenador.marca = 'La pava';
+ordenador.tipo = 'portátil';
+ordenador.perifericos = ['', 'touchPad'];
 // Hasta aquí
 
 // TEST 1

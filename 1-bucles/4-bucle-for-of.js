@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+var genteMayorDe25 = [];
+
+for (var item of gente) {
+    if (item.edad > 25) {
+        genteMayorDe25.push(item);
+    }
+}
+
+console.log(genteMayorDe25);
