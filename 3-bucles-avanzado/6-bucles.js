@@ -18,7 +18,8 @@ console.log('El array original es:  arr =', arr);
 var dobleArr = [];
 
 for (var item of arr) {
-    dobleArr.push(item * 2);
+    dobleArr.push(item * 
+        2);
 }
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);
