@@ -7,50 +7,60 @@
 // Aquí tu código
 var ordenador = [];
 
-ordenador.marca = 'La pava';
-ordenador.tipo = 'portátil';
-ordenador.perifericos = ['', 'touchPad'];
+// ordenador.marca = 'La pava';
+// ordenador.tipo = 'portátil';
+// ordenador.perifericos = ['', 'touchPad'];
+
+var ordenador = {
+    tipo:"portátil",
+    marca: "La pava",
+    perifericos: ['', 'touchPad'],
+    almacenamiento: {
+        discos: ['', 'HDD'],
+        maestro: 0
+    }
+};
 // Hasta aquí
 
 // TEST 1
 if (typeof ordenador === 'object') {
-    console.log('apruebas');
+    console.log('apruebas1');
 } else {
     console.log('suspendes');
 }
 // TEST 2
 if (ordenador.marca === 'La pava') {
-    console.log('apruebas');
+    console.log('apruebas2');
 } else {
     console.log('suspendes');
 }
 // TEST 3
 if (ordenador.tipo === 'portátil') {
-    console.log('apruebas');
+    console.log('apruebas3');
 } else {
     console.log('suspendes');
 }
 // TEST 4
 if (ordenador.perifericos[1] === 'touchPad') {
-    console.log('apruebas');
+    console.log('apruebas4');
 } else {
     console.log('suspendes');
 }
 // TEST 5
 if (ordenador['almacenamiento']['discos'][1] === 'HDD') {
-    console.log('apruebas');
+    console.log('apruebas5');
 } else {
     console.log('suspendes');
 }
 // TEST 6
 if (ordenador.almacenamiento.maestro === 0) {
-    console.log('apruebas');
+    console.log('apruebas6');
 } else {
     console.log('suspendes');
 }
 // TEST 7
 if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD') {
-    console.log('apruebas');
+    console.log('apruebas7');
     
 } else {
     console.log('suspendes');
