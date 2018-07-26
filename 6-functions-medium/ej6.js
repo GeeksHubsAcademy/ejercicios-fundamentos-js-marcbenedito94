@@ -17,7 +17,7 @@ let transformaArrayEnOtraConSusLongitudes = (arrayDeStrings) => {
         for (var item of arrayDeStrings) {
             arrayDeLongitudes.push(item.length);
         }
-    } else if ('object' != typeof arrayDeStrings) {
+    } else {
         return 'Debo ser ejecutada con un array';
     }
     // Hasta aquí.
