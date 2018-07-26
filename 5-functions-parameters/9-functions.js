@@ -11,7 +11,7 @@
 // Aquí tu código
 function muestraPorConsolaEurosEnPesetas (euros) {
     if ('number' == typeof euros) {
-        console.log(euros + ' Euros son ' + euros*168 + ' Pesetas');
+        console.log(euros + ' Euros son ' + euros * 168 + ' Pesetas');
     } else if ('number' != typeof euros) {
         throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
     }

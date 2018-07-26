@@ -9,7 +9,7 @@
 // Aquí tu código
 function convierteEurosEnPesetas (euros) {
     if ('number' == typeof euros) {
-        return euros*168;
+        return euros * 168;
     } else if ('number' != typeof euros) {
         throw new Error('convierteEurosEnPesetas debe recibir un number');
     }
