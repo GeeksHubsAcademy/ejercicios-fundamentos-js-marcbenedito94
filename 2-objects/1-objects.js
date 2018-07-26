@@ -16,7 +16,7 @@ var ordenador = {
     marca: "La pava",
     perifericos: ['', 'touchPad'],
     almacenamiento: {
-        discos: ['', 'HDD'],
+        discos: ['SSD', 'HDD'],
         maestro: 0
     }
 };
